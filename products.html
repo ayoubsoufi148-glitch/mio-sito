@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodotti - TechShop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Stesso header dell'index.html -->
+    </header>
+
+    <main class="products-page">
+        <div class="container">
+            <div class="page-header">
+                <h1>Tutti i Prodotti</h1>
+                <div class="filter-sort">
+                    <select id="categoryFilter">
+                        <option value="">Tutte le categorie</option>
+                        <option value="computer">Computer</option>
+                        <option value="smartphone">Smartphone</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="accessori">Accessori</option>
+                    </select>
+                    <select id="priceSort">
+                        <option value="">Ordina per prezzo</option>
+                        <option value="asc">Prezzo: Basso-Alto</option>
+                        <option value="desc">Prezzo: Alto-Basso</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="products-grid" id="allProducts">
+                <!-- Prodotti caricati via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <!-- Stesso footer dell'index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

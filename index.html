@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - Il tuo e-commerce di tecnologia</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+<script src="jsproducts.js" defer></script>
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>TechShop</h1>
+            </div>
+            
+            <div class="search-bar">
+                <input type="text" placeholder="Cerca prodotti...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="header-actions">
+                <div class="account">
+                    <i class="fas fa-user"></i>
+                    <span>Account</span>
+                </div>
+                <div class="cart">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html"><i class="fas fa-box"></i> Prodotti</a></li>
+                    <li><a href="categories.html"><i class="fas fa-list"></i> Categorie</a></li>
+                    <li><a href="deals.html"><i class="fas fa-fire"></i> Offerte</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> Chi Siamo</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contatti</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Benvenuto in TechShop</h2>
+            <p>Scopri le migliori offerte di tecnologia</p>
+            <a href="products.html" class="btn btn-primary">Scopri ora</a>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Prodotti in Evidenza</h2>
+            <div class="products-grid" id="featuredProducts">
+                <!-- I prodotti verranno caricati via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2>Categorie</h2>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300" alt="Computer">
+                    <h3>Computer</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=300" alt="Smartphone">
+                    <h3>Smartphone</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=300" alt="Tablet">
+                    <h3>Tablet</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=300" alt="Accessori">
+                    <h3>Accessori</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>TechShop</h3>
+                    <p>Il tuo negozio di tecnologia di fiducia</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Link Utili</h4>
+                    <ul>
+                        <li><a href="about.html">Chi Siamo</a></li>
+                        <li><a href="contact.html">Contatti</a></li>
+                        <li><a href="#">Termini e Condizioni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servizio Clienti</h4>
+                    <ul>
+                        <li><a href="#">Spedizioni</a></li>
+                        <li><a href="#">Resi</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contatti</h4>
+                    <p>Email: info@techshop.it</p>
+                    <p>Telefono: 800-123456</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>
